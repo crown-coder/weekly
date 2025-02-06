@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SASS/SCSS Integration Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JavaScript Array Operations and SASS/SCSS Integration</h1>
+    <p>Open the console to see array operations and explore the SCSS-styled design below.</p>
+
+    <!-- Array Operations Section -->
+    <script>
+      const numbers = [1, 2, 3, 4, 5];
+
+      const doubled = numbers.map(num => num * 2);
+      console.log("Using map: ", doubled);
+
+      const filtered = numbers.filter(num => num > 2);
+      console.log("Using filter: ", filtered);
+
+      const sum = numbers.reduce((acc, num) => acc + num, 0);
+      console.log("Using reduce: ", sum);
+
+      console.log("Using forEach:");
+      numbers.forEach(num => console.log(num));
+
+      const spliced = [...numbers];
+      spliced.splice(1, 2);
+      console.log("Using splice: ", spliced);
+    </script>
+
+    <!-- Flexbox Section -->
+    <div class="flexbox">
+      <div class="flexbox-item">
+        <h2>Map Example</h2>
+        <p>Transforms each element in the array.</p>
+      </div>
+      <div class="flexbox-item">
+        <h2>Filter Example</h2>
+        <p>Filters elements based on a condition.</p>
+      </div>
+      <div class="flexbox-item">
+        <h2>Reduce Example</h2>
+        <p>Calculates the total or aggregated value.</p>
+      </div>
+    </div>
+
+    <!-- Images in CSS -->
+    <div class="image-section">
+      <h2>Image Example</h2>
+      <img src="https://img.freepik.com/free-photo/mountains-during-sunset_181624-223.jpg" alt="Mountain Sunset">
+    </div>
+  </div>
+</body>
+</html>

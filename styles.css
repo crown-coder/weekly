@@ -1,0 +1,77 @@
+/* Variables */
+/* Mixins */
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+h1 {
+  color: #0056b3;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px 0;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: black;
+  margin: 10px 0 30px;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border: 2px solid #999999;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Flexbox Section */
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.flexbox .flexbox-item {
+  flex: 1 1 calc(33.33% - 40px);
+  min-width: 250px;
+  padding: 20px;
+  text-align: center;
+  background: #f4f4f9;
+  border: 1px solid rgb(127.5, 127.5, 127.5);
+  border-radius: 5px;
+}
+.flexbox .flexbox-item h2 {
+  color: #0056b3;
+  font-size: 1.5rem;
+}
+
+/* Image Section */
+.image-section {
+  text-align: center;
+}
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*# sourceMappingURL=styles.css.map */
