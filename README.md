@@ -94,5 +94,5 @@ git stash	Temporarily saves changes that aren’t ready to commit.
 git tag	Marks a specific commit as a release version.
 git log	Displays commit history.
 Project Demo
-Visit the live demo on GitHub Pages or view the repository on GitHub.
+Visit the live demo on GitHub Pages https://crown-coder.github.io/weekly/ or view the repository on GitHub.
 
